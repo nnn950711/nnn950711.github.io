@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>首頁(html test)</title>
+    <style type="text/css">
+        .title{font-weight:bold;font-size:100px}
+        .border{border: 5px aqua dashed;width:200px;margin-left:10px;font-size:35px;}
+        .keyword{border: 5px gold solid;color:aquamarine;background-color:black;}
+        .text{margin-top:20px;margin-bottom:20px;font-size:50px}
+    </style>
+</head>
+<body>
+    <div class="title">
+        Hello 
+        <span class="keyword">World</span>
+        <span class="border">作者:姜伯叡</span>
+    </div>
+    <hr/>
+    <div class="text" style="position:relative;left:400px">照片</div>
+    <img 
+    src="E:\哥哥的東西\圖片\novaskin\novaskin-minecraft-wallpaper.jpeg" 
+    style="position:absolute;left:600px;width: 4px;width:400px;height:200px;"
+    />
+    <div class="text">前往指定網址</div>
+    <ul>
+        <li><a href="http://www.youtube.com/">Youtube</a></li>
+        <li><a href="http://www.facebook.com/">Facebook</a></li>
+        <li><a href="http://www.google.com/">Google</a></li>
+    </ul>
+    <div class="text">Html & Css 語言</div>
+    <table border="5" width="1300" cellpadding="10">
+        <tr>
+            <td><b>類別</b></td>
+            <td><b>指令</b></td>
+            <td><b>用途及備註</b></td>
+            <td><b>範例</b></td>
+        </tr>
+        <tr>
+            <td><b>函式頭尾界線<br/><br/><br/></b></td>
+            <td><b>＜!DOCTYPE html＞<br/>＜html＞<br/><br/></b></td>
+            <td/>
+            <td><b>＜!DOCTYPE html＞<br/>＜html＞<br/>＜/html＞</b></td>
+        </tr>
+        <tr>
+            <td><b>結尾</b></td>
+            <td><b>＜/(指令)＞</b></td>
+            <td/>
+            <td><b>＜h＞Text＜/h＞</b></td>
+        </tr>
+        <tr>
+            <td>----------</td>
+            <td><b>＜(指令)/＞</b></td>
+            <td>
+                <b>
+                    開頭和結尾中<u>無內容</u>，用此可省略<u>＜/(指令)＞</u>
+                </b>
+            </td>
+            <td><b>＜br/＞</b></tr></td>
+        </tr>
+        <tr>
+            <td><b>結尾</b></td>
+            <td><b>＜/(指令)＞</b></td>
+            <td/>
+            <td><b>＜h＞Text＜/h＞</b></td>
+        </tr>
+    </table>
+    <div class="border" style="margin-top:20px;margin-bottom:20px">
+        主體(head)
+    </div>
+    <table border="5" width="1300" cellpadding="10">
+        <tr>
+            <td><b>主體頭尾界線</b><br/><br/></td>
+            <td><b>＜head＞<br/></br></b></td>
+            <td/>
+            <td><b><＜head＞<br/>＜/head＞></b></td>
+        </tr>
+        <tr>
+            <td><b>網頁名稱</b></td>
+            <td><b>＜title＞</br></b></td>
+            <td/>
+            <td><b><＜title＞首頁＜/title＞></b></td>
+        </tr>
+        <tr>
+            <td><b>CSS選擇器<br/><br/><br/><br/></b></td>
+            <td><b>＜style＞</br></br></br><br/></b></td>
+            <td>
+                <b>
+                    type=" "<br/><br/>
+                    -> text/css<br/><br/>
+                </b>
+            </td>
+            <td>
+                <b>
+                    ＜style type="text/css"＞<br/>
+                        .text{font-size:50px}<br/>
+                        .keyword{color:yellow}<br/>
+                    ＜/style＞
+                </b>
+            </td>
+        </tr>
+    </table>
+    <div class="border" style="margin-top:20px;margin-bottom:20px">
+        內容(body)
+    </div>
+    <table border="5" width="1300" cellpadding="10">
+        <tr>
+            <td><b>內容頭尾界線</b></td>
+            <td><b>＜body＞</br></b></td>
+            <td/>
+            <td><b>＜body＞<br/>＜/body＞></b></td>
+        </tr>
+        <tr>
+            <td><b>標題</b></td>
+            <td><b>＜h(序位)＞</br></b></td>
+            <td/>
+            <td><b>＜h3＞Text＜/h3＞></b></td>
+        </tr>
+        <tr>
+            <td/>
+            <td>
+                <b>
+                    ＜div＞
+                        </br></br></br></br></br></br></br></br></br></br>
+                        </br></br></br></br></br></br></br></br></br></br>
+                </b>
+            </td>
+            <td>
+                <b>
+                    ＜span＞ (使某些字句使用不同效果)<br/><br/>
+                    ＜br＞ (強制換行)<br/><br/>
+                    style=" "<br/><br/>
+                    -> font-size:(數值)px[大小]<br/>
+                    -> font-weight:(種類)[線條粗細(種類:bold粗體)]<br/>
+                    -> margin-(方向):數值px[與內容的間隔大小(方向:top上 & bottom下 & left左 & right右)]<br/>
+                    -> color:(顏色名)[顏色]<br/>
+                    -> border (數值)px (顏色) (種類)[邊框 (種類:solid實線 & dashed虛線)]<br/>
+                    -> background-color:(顏色)[背景顏色]<br/>
+                    -> width:(數值)px[寬度]<br/>
+                    -> height:(數值)px[高度]<br/>
+                    -> position:(種類)[位置基準點的索取方式(種類:relative相對位置 & absolute絕對位置)]<br/>
+                    -> (方向):(數值)px[位置(方向:top上 & bottom下 & left左 & right右]<br/><br/>
+                    class="CSS名稱"
+                </b>
+            </td>
+            <td>
+                <b>
+                    ＜div style="color:aqua">Text＜/div＞<br/>
+                    ＜div>＜span style="color:aqua"＞Text＜/div＞<br/>
+                    ＜div＞Tex＜br/＞t＜br/＞＜/div＞
+                        <br/><br/><br/><br/><br/><br/><br/><br/></br>
+                        <br/><br/><br/><br/><br/><br/><br/><br/></br>
+                </b>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

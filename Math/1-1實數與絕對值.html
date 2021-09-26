@@ -40,18 +40,23 @@
             
             .text{
                 position:fixed;
-                top:7.8rem;
                 left:21rem;
-                font-size:3rem;
+                font-size:1.8rem;
                 font-weight:bold;
-                padding-bottom:10px;
             }
             .text > aside{
-                position:fixed;
-                left:23rem;
+                position:relative;
+                left:5rem;
+                width:65rem;
                 font-size:1.8rem;
-                background-color:gray;
             }
+
+            #content{
+                border-left:lightgray 1rem solid;
+                padding-left:10px;
+                font-size:20px;
+            }
+            #content > p > span{color:orangered}
         </style>
     </head>
     <body>
@@ -87,12 +92,63 @@
                     <li><a>3-3 內積的應用</a></li>
                 </ul>
         </aside>
-        <main class="text">
+        <div class="text">
+            <h2>第一章 - 坐標系與函數圖形</h2>
             <aside>
-                <h2>第一章 - 坐標系與函數圖形</h2>
+                <h3>1-1 實數與絕對值</h3>
                 <hr/>
-                <p>1-1</p>
+                <h4 style="color:purple">甲、認識有理數</h4>
+                <aside id="content">
+                    <p>1、自然數:
+                        <ul>就是正整數。例如:1、2、3、4、...一直接續下去</ul>
+                    </p>
+                    <p/>
+                    <p>2、整數:</p>
+                    <table border=3px style="position: relative;left:2rem;">
+                        <tr>
+                            <td>1、正整數</td>
+                            <td>例如:1、2、3、4、...</td>
+                        </tr>
+                        <tr>
+                            <td>2、負整數</td>
+                            <td>例如:-1、-2、-3、-4、...</td>
+                        </tr>
+                        <tr>
+                            <td>3、0</td>
+                        </tr>
+                    <table>
+                    <p>3、有理數
+                        <ul style="width:40rem">
+                            <p>能寫成分數型 p/q 例如: 3/3 、2/3、...<p>
+                            <table border=3px style="position: relative;left:2rem;">
+                                <tr>
+                                    <td>1、整數</td>
+                                    <td>因為任何整數(n)能寫成 n/1</td>
+                                    <td>例如: 0、1、-2</td>
+                                </tr>
+                                <tr>
+                                    <td>2、分數</td>
+                                    <td/>
+                                    <td>例如: 2/3 、8/5</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="2">3、循環小數、有限小數</td>
+                                    <td/>
+                                    <td>例如: 2/3 、8/5</td>
+                                </tr>
+                                <tr>
+                                    <td>循環小數: 當商的某部分數字一直循環出現，稱之為 循環小數<br/></td>
+                                    <td>例如: 3.2525252......</td>
+                                </tr>
+                                <tr>
+                                    <td>有限小數: 當商為小數，並且沒有某部分一直循環出現，稱之為 有限小數</td>
+                                    <td>例如: 3.68、4.72</td>
+                                </tr>
+                            </table>
+                        </ul>
+                    </p>
+                </aside>
             </aside>
-        </main>
+        </div>
     </body>
 </html>

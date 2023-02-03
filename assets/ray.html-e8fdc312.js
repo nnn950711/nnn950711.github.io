@@ -1,0 +1,1 @@
+import{ab as e,G as t,H as a,E as r}from"./framework-48772e17.js";const s={},c=r("p",null,"Feature details here.",-1),o=[c];function _(n,l){return t(),a("div",null,o)}const i=e(s,[["render",_],["__file","ray.html.vue"]]);export{i as default};
